@@ -4,15 +4,11 @@
 - Clone this repo to your local machine.
 
 #### Create cluster
-- We'll start off by creating an AWS EMR cluster, just as in the first assignment. Head over to [AWS EMR](https://aws.amazon.com/emr/) and get started.
-- Click on Create cluster and configure as per below - 
+- We'll start off by creating an AWS EMR cluster, just as in the first assignment. Head over to [AWS EMR](https://aws.amazon.com/emr/) and get started. Choose Spark when prompted.
 
-![img](http://imgur.com/Ed6DlBS.jpg)
+- Click on "Learn how to create an EC2 key pair" to create and modify your EC2 key pair, before you activate the cluster.
 
 - The cluster remains in the 'Starting' state for about 10 - 15 minutes. Once the cluster is ready for use, the status will change to 'Waiting'. You can now go ahead and use it.
-
-#### Create private key for ssh access
-- Click on "Learn how to create an EC2 key pair" to create and modify your EC2 key pair.
 
 #### Allow inbound SSH traffic on the master node
 - On the left top corner goto Services->EC2
